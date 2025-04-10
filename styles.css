@@ -1,0 +1,5 @@
+.offset-left {
+    position: relative;
+    left: -400px; /* Adjust this value to shift slightly left */
+  }
+  

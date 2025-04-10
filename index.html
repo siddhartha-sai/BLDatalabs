@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BLData Labs</title>
+        <!-- Bootstrap CSS CDN -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header class="custom- header text-center offset-left">
+            <h1 style="color:rgb(52, 109, 109)">Building Data Labs</h1>
+        </header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-white shadow-lg border-bottom">           
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav w-100 d-flex justify-content-around">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#about" style="color: rgb(52, 109, 109);font-weight: bold; font-size: 1.2rem;">Who we are</a>
+                    </li>
+                    <!--Service drop-down-->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: rgb(9, 48, 48); font-weight: bold; font-size: 1.2rem;">
+                          Services
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="servicesDropdown">
+                          <a class="dropdown-item" href="#software" >Software Development</a>
+                          <a class="dropdown-item" href="#plugins">Custom Revit Plugins</a>
+                          <a class="dropdown-item" href="#measurement">BOMA and Real Estate Measurement</a>
+                        </div>
+                      </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog" style="color: rgb(52, 109, 109);font-weight: bold; font-size: 1.2rem;">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#customers" style="color: rgb(52, 109, 109);font-weight: bold; font-size: 1.2rem;">Customers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#resources" style="color: rgb(52, 109, 109);font-weight: bold; font-size: 1.2rem;">Resources</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact" style="color: rgb(52, 109, 109);font-weight: bold; font-size: 1.2rem;">Contact</a>
+                    </li>
+                </ul>
+            </div>        
+        </nav>
+
+            <!-- About Section -->
+        <section id="about" class="container py-5">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="Drawings.jpeg" class="img-fluid" alt="ConstructionDrawing">
+                </div>
+                <div class="col-md-8">
+                    <h2>Who we are</h2>
+                    <p>Building Data Labs offers data-driven solutions for building owners, property managers, architects, and engineers to optimize projects.
+                         We help visualize building data using D models, web apps, AR, and VR, enabling real interaction to tackle management challenges.
+                          Our services include as-built modeling, BIM management, AR/VR models, and consulting in AutoDesk Revit.
+                           We also provide software solutions for data integration web development, and project management tools like SnapTools and SnapCRM,
+                            helping stakeholders achieve to 30% ROI on maintenance costs.</p>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <img src="architectural-drawings.jpeg" class="img-fluid"  alt="Architecture">
+                </div>
+                <div class="col-md-6">
+                    <img src="StructuralDrawings.jpeg" class="img-fluid" alt="Structure">
+                </div>
+            </div>
+                        <!-- Project Section Inside About -->
+                        <div class="mt-5 p-4 rounded text-white" style="background-color: #979b9e;">
+                            <div class="row">
+                                <div class="col-12 text-center">
+                                    <h2>Projects</h2>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <!-- Video Section -->
+                                <div class="col-md-6">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                         <!-- YouTube Video Embed (Autoplay and Loop) -->
+                                        <video class="embed-responsive-item" autoplay loop muted controls>
+                                            <source src="Video.mp4" type="video/mp4">
+                                            Your browser does not support the video tag.
+                                        </video>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 d-flex flex-column justify-content-center">
+                                    <h3>Project Showcase</h3>
+                                    <p>
+                                        One of our recent projects involved integrating BIM and AR solutions for a large commercial renovation.
+                                        
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+        </section>
+            <!-- Footer Section -->
+            <footer class="text-white text-center py-3" style="border-top: 3px solid #ddd; box-shadow: 0 -15px 30px rgba(0, 0, 0, 0.2); background-color: #343a40;">
+                <!-- Contact Section -->
+                <section id="contact" class="container py-5">
+                    <h2 class="text-left mb-4" style="color: white;">Contact Us</h2>
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="name">Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Your Name">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="email">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="Your Email">
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label for="phone" class="text-left">Phone</label>
+                                <input type="tel" class="form-control" id="phone" placeholder="Your Phone Number">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn" style="background-color: rgb(97, 95, 95); color: white;">Send Message</button>
+                    </form>
+                </section>
+                <p>&copy; 2025 Building Data Labs. All Rights Reserved.</p>
+            </footer>
+            
+            
+                <!-- Bootstrap JS, Popper.js, and jQuery (for Bootstrap 4) -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    </body>
+</html>
