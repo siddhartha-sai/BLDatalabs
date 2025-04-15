@@ -16,8 +16,12 @@
         <nav class="navbar navbar-expand-lg navbar-dark bg-white shadow-lg border-bottom">           
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav w-100 d-flex justify-content-around">
+                    <a class="navbar-brand" href="#">
+                        <img src="https://elements-resized.envatousercontent.com/envato-dam-assets-production/EVA/TRX/7f/72/e0/c0/de/v1_E10/E1037FIY.jpg?w=800&cf_fit=scale-down&mark-alpha=18&mark=https%3A%2F%2Felements-assets.envato.com%2Fstatic%2Fwatermark4.png&q=85&format=auto&s=9f914cb1c4b1fc4c27c8e8ff9ec6456fd8c214b1c29d2e7ccbf999b0965905b9" alt="Bootstrap" width="30" height="24">
+                      </a>
+                  
                     <li class="nav-item active">
-                        <a class="nav-link" href="#about" style="color: rgb(52, 109, 109);font-weight: bold; font-size: 1.2rem;">Who we are</a>
+                        <a class="nav-link" href="index.html" style="color: rgb(52, 109, 109);font-weight: bold; font-size: 1.2rem;">Who we are</a>
                     </li>
                     <!--Service drop-down-->
                     <li class="nav-item dropdown">
@@ -25,19 +29,16 @@
                           Services
                         </a>
                         <div class="dropdown-menu" aria-labelledby="servicesDropdown">
-                          <a class="dropdown-item" href="#software" >Software Development</a>
-                          <a class="dropdown-item" href="#plugins">Custom Revit Plugins</a>
-                          <a class="dropdown-item" href="#measurement">BOMA and Real Estate Measurement</a>
+                          <a class="dropdown-item" href="softwareDevelopment.html" >Software Development</a>
+                          <a class="dropdown-item" href="customRevitPlugins.html">Custom Revit Plugins</a>
+                          <a class="dropdown-item" href="realEstateMeasurements.html">BOMA and Real Estate Measurement</a>
                         </div>
                       </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#blog" style="color: rgb(52, 109, 109);font-weight: bold; font-size: 1.2rem;">Blog</a>
+                        <a class="nav-link" href="blog.html" style="color: rgb(52, 109, 109);font-weight: bold; font-size: 1.2rem;">Blog</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#customers" style="color: rgb(52, 109, 109);font-weight: bold; font-size: 1.2rem;">Customers</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#resources" style="color: rgb(52, 109, 109);font-weight: bold; font-size: 1.2rem;">Resources</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contact" style="color: rgb(52, 109, 109);font-weight: bold; font-size: 1.2rem;">Contact</a>
@@ -46,13 +47,14 @@
             </div>        
         </nav>
 
-            <!-- About Section -->
-        <section id="about" class="container py-5">
-            <div class="row">
+            <!-- Who we are Section -->
+        <section id="whoweare" class="container py-5">
+            <div class="row align-items center">
+                  
                 <div class="col-md-4">
                     <img src="Drawings.jpeg" class="img-fluid" alt="ConstructionDrawing">
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-8 text-center">
                     <h2>Who we are</h2>
                     <p>Building Data Labs offers data-driven solutions for building owners, property managers, architects, and engineers to optimize projects.
                          We help visualize building data using D models, web apps, AR, and VR, enabling real interaction to tackle management challenges.
@@ -69,63 +71,139 @@
                     <img src="StructuralDrawings.jpeg" class="img-fluid" alt="Structure">
                 </div>
             </div>
-                        <!-- Project Section Inside About -->
-                        <div class="mt-5 p-4 rounded text-white" style="background-color: #979b9e;">
-                            <div class="row">
-                                <div class="col-12 text-center">
-                                    <h2>Projects</h2>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <!-- Video Section -->
-                                <div class="col-md-6">
-                                    <div class="embed-responsive embed-responsive-16by9">
-                                         <!-- YouTube Video Embed (Autoplay and Loop) -->
-                                        <video class="embed-responsive-item" autoplay loop muted controls>
-                                            <source src="Video.mp4" type="video/mp4">
-                                            Your browser does not support the video tag.
-                                        </video>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 d-flex flex-column justify-content-center">
-                                    <h3>Project Showcase</h3>
-                                    <p>
-                                        One of our recent projects involved integrating BIM and AR solutions for a large commercial renovation.
-                                        
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+            
+            
         </section>
-            <!-- Footer Section -->
-            <footer class="text-white text-center py-3" style="border-top: 3px solid #ddd; box-shadow: 0 -15px 30px rgba(0, 0, 0, 0.2); background-color: #343a40;">
-                <!-- Contact Section -->
-                <section id="contact" class="container py-5">
-                    <h2 class="text-left mb-4" style="color: white;">Contact Us</h2>
-                    <form>
-                        <div class="form-row">
-                            <div class="form-group col-md-6">
-                                <label for="name">Name</label>
-                                <input type="text" class="form-control" id="name" placeholder="Your Name">
-                            </div>
-                            <div class="form-group col-md-6">
-                                <label for="email">Email</label>
-                                <input type="email" class="form-control" id="email" placeholder="Your Email">
-                            </div>
-                            <div class="form-group col-md-4">
-                                <label for="phone" class="text-left">Phone</label>
-                                <input type="tel" class="form-control" id="phone" placeholder="Your Phone Number">
+
+        <section id="projects"  class="container-fluid px-1 py-1">
+            <div class="row">
+
+            <div class="col-1">
+            </div>
+            <div class="col-10">
+            <!-- Project Section Inside About -->
+                <div class="mt-5 p-4 rounded text-white" style="background-color: #979b9e;">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <h2>Projects</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                    <!-- Video Section -->
+                        <div class="col-md-6">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                    <!-- YouTube Video Embed (Autoplay and Loop) -->
+                                <video class="embed-responsive-item" autoplay loop muted controls>
+                                    <source src="Video.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
                             </div>
                         </div>
-                        <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+                        <div class="col-md-6 d-flex flex-column justify-content-center">
+                            <h3>Project Showcase</h3>
+                            <p>
+                                One of our recent projects involved integrating BIM and AR solutions for a large commercial renovation.
+                                
+                            </p>
                         </div>
-                        <button type="submit" class="btn" style="background-color: rgb(97, 95, 95); color: white;">Send Message</button>
-                    </form>
-                </section>
-                <p>&copy; 2025 Building Data Labs. All Rights Reserved.</p>
-            </footer>
+                    </div>
+                </div>
+            </div>
+            <div class="col-1">
+            </div>
+            </div>
+        </section>
+        <div class="container-fluid py-5">
+            <h2 style="color:rgb(52, 109, 109)">Our Clients</h2>
+            <div class="slider">
+                <div class ="slide-track">
+                    <div class="slide">
+                        <a href="https://www.whirlpool.com/" target="_blank">
+                            <img src="whirlpool_logo.png">
+                        </a>
+                    </div>
+                    <div class="slide">
+                        <a href="https://www.jbmarchitect.com/" target="_blank">
+                            <img src="JBMA.jpeg">
+                        </a>
+                    </div>
+                    <div class="slide">
+                        <a href="https://www.cooperrobertson.com/" target="_blank">
+                            <img src="Cooper-Robertson.jpg">
+                        </a>
+                    </div>
+                    <div class="slide">
+                        <a href="https://barmethod.com/" target="_blank">
+                            <img src="bar-method-logo.jpeg">
+                        </a>
+                    </div>
+                    <div class="slide">
+                        <a href="https://www.jbmarchitect.com/" target="_blank">
+                            <img src="JBM LOGO.jpg">
+                        </a>
+                    </div>
+
+                    <!-- Same 5 slides doubled-->
+                    <div class="slide">
+                        <a href="https://www.whirlpool.com/" target="_blank">
+                            <img src="whirlpool_logo.png">
+                        </a>
+                    </div>
+                    <div class="slide">
+                        <a href="https://www.jbmarchitect.com/" target="_blank">
+                            <img src="JBMA.jpeg">
+                        </a>
+                    </div>
+                    <div class="slide">
+                        <a href="https://www.cooperrobertson.com/" target="_blank">
+                            <img src="Cooper-Robertson.jpg">
+                        </a>
+                    </div>
+                    <div class="slide">
+                        <a href="https://barmethod.com/" target="_blank">
+                            <img src="bar-method-logo.jpeg">
+                        </a>
+                    </div>
+                    <div class="slide">
+                        <a href="https://www.jbmarchitect.com/" target="_blank">
+                            <img src="JBM LOGO.jpg">
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+             
+            
+        <!-- Footer Section -->
+        <footer class="text-white text-center py-3" style="border-top: 3px solid #ddd; box-shadow: 0 -15px 30px rgba(0, 0, 0, 0.2); background-color: #343a40;">
+            <!-- Contact Section -->
+            <section id="contact" class="container py-1">
+                <h2 class="text-left mb-4" style="color: white;">Contact Us</h2>
+                <form>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Your Name">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Your Email">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="phone" class="text-left">Phone</label>
+                            <input type="tel" class="form-control" id="phone" placeholder="Your Phone Number">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn" style="background-color: rgb(97, 95, 95); color: white;">Send Message</button>
+                </form>
+            </section>
+            <p>&copy; 2025 Building Data Labs. All Rights Reserved.</p>
+        </footer>
             
             
                 <!-- Bootstrap JS, Popper.js, and jQuery (for Bootstrap 4) -->
